@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	Daemon
-%include	/usr/lib/rpm/macros.perl
 Summary:	Proc-Daemon perl module
 Summary(pl):	Modu³ perla Proc-Daemon
 Name:		perl-Proc-Daemon
 Version:	0.02
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Proc-Daemon - Run Perl program as a daemon process.
 Proc-Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
 
 %prep
-%setup -q -n Proc-Daemon-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
