@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	Daemon
-Summary:	Proc-Daemon perl module
-Summary(pl):	Modu³ perla Proc-Daemon
+Summary:	Proc::Daemon perl module
+Summary(pl):	Modu³ perla Proc::Daemon
 Name:		perl-Proc-Daemon
 Version:	0.02
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Proc-Daemon - Run Perl program as a daemon process.
+Proc::Daemon - Run Perl program as a daemon process.
 
 %description -l pl
-Proc-Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
+Proc::Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
