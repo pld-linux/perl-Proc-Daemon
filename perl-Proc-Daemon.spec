@@ -4,12 +4,12 @@
 Summary:	Proc::Daemon perl module
 Summary(pl):	Modu³ perla Proc::Daemon
 Name:		perl-Proc-Daemon
-Version:	0.02
-Release:	9
+Version:	0.03
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	aed8014890240b1fb8b6a8bb18e3decf
+# Source0-md5:	6e1b83ac0f0add22f63597733f38c973
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
