@@ -6,7 +6,7 @@
 %define	pdir	Proc
 %define	pnam	Daemon
 Summary:	Proc::Daemon perl module
-Summary(pl):	Modu³ perla Proc::Daemon
+Summary(pl):	Modu³ Perla Proc::Daemon
 Name:		perl-Proc-Daemon
 Version:	0.03
 Release:	2
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Proc::Daemon - Run Perl program as a daemon process.
 
 %description -l pl
-Proc::Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
+Proc::Daemon - umo¿liwia uruchamianie programów Perla w trybie demona.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
