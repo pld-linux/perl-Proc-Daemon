@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Proc-Daemon
 Name:		perl-Proc-Daemon
 Version:	0.02
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Proc/Proc-Daemon-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Proc/Proc-Daemon-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Proc-Daemon - Run Perl program as a daemon process. 
+Proc-Daemon - Run Perl program as a daemon process.
 
 %description -l pl
 Proc-Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
