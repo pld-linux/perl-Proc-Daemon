@@ -25,7 +25,7 @@ Proc-Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
