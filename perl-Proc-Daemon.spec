@@ -26,7 +26,7 @@ Proc::Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
