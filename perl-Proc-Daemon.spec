@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Proc
-%define	pnam	Daemon
+%define		pdir	Proc
+%define		pnam	Daemon
 Summary:	Proc::Daemon perl module
 Summary(pl):	Modu³ Perla Proc::Daemon
 Name:		perl-Proc-Daemon
