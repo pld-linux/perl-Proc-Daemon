@@ -3,7 +3,7 @@ Summary:	Proc-Daemon perl module
 Summary(pl):	Modu³ perla Proc-Daemon
 Name:		perl-Proc-Daemon
 Version:	0.02
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
