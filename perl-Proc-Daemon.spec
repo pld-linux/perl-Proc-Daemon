@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	Daemon
@@ -6,7 +10,7 @@ Summary(pl):	Modu³ perla Proc::Daemon
 Name:		perl-Proc-Daemon
 Version:	0.03
 Release:	1
-License:	GPL
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6e1b83ac0f0add22f63597733f38c973
@@ -29,10 +33,13 @@ Proc::Daemon - umo¿liwia uruchamianie programów perla w trybie demona.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
