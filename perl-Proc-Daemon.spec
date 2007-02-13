@@ -6,7 +6,7 @@
 %define		pdir	Proc
 %define		pnam	Daemon
 Summary:	Proc::Daemon perl module
-Summary(pl.UTF-8):   Moduł Perla Proc::Daemon
+Summary(pl.UTF-8):	Moduł Perla Proc::Daemon
 Name:		perl-Proc-Daemon
 Version:	0.03
 Release:	2
