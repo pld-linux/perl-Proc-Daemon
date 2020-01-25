@@ -4,7 +4,6 @@
 
 %define		pdir	Proc
 %define		pnam	Daemon
-%include	/usr/lib/rpm/macros.perl
 Summary:	Proc::Daemon perl module
 Summary(pl.UTF-8):	Moduł Perla Proc::Daemon
 Name:		perl-Proc-Daemon
